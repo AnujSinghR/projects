@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!--style of css-->
+    <style>
+        .main-box{
+            width:100%;
+            height: 700px;
+            background-color: white;
+            margin-top: 100px;
+            
+
+        }
+        .sign-up-box{
+            padding: 18px;
+            width:30%;
+            font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+            height:350px;
+            margin:auto;
+            background-color: #f2f2f2;
+            transition: 4s;
+            
+        }
+        h1{
+            text-align: center;
+            color: blueviolet;
+        }
+      /* .login-box:hover{
+            border:2px solid #fff;
+            box-shadow: 0 0 50px 15px #48abe0;
+      }*/
+    .inp{
+        width: 70%;
+        height: 30px;
+        margin-left: 14%;
+        padding: 4px;
+        font-size: 16px;
+        margin-bottom: 15px;
+        
+    }
+    </style>
+</head>
+<body>
+    <div class="main-box">
+    <div class="sign-up-box">
+      <h1>Chit Fund <b style="color:red">sign up</b></h1>
+      <input class="inp" type="text" placeholder="G-mail" id="g-mail" value>
+        <input class="inp" type="text" placeholder="UserName" id="u-name" value>
+        <input class="inp" type="password" placeholder="Password" id="pass" value><ion-icon name="eye-off-outline" id="icon-eye" onclick="eye()">
+        </ion-icon>
+ 
+        <button type="button" class="inp" onclick="sign_sub()">Submit</button>
+        <ion-icon name="shield-checkmark-outline" id = "checked"></ion-icon>
+        <p id="submited">hello</p>
+    </div>
+
+    </div>
+    <script src="C:\lets_learn_something\Login_page\login.js">
+
+    </script>
+</body>
+</html>
